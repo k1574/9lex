@@ -1,0 +1,15 @@
+<$MKINCDIR/config
+PROGNAME = 9lex
+
+CFILES=lmain.c sub1.c sub2.c header.c
+HFILES=ldefs.h
+YFILES=parser.y
+YHFILES=y.tab.h
+YCFILES=y.tab.c
+AFILES = $OBJDIR/9.a
+
+DEFS = -D_DEFAULT_SOURCE
+INCS = $INC9
+
+#done
+#cp ncform $SYS9/lib/lex
